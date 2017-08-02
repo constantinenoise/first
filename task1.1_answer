@@ -1,0 +1,61 @@
+1.
+
+localhost:trainee_github novoslov$ git init
+Initialized empty Git repository in /Users/novoslov/trainee_github/.git/
+
+2.
+
+git config --global user.name "Константин Новослов"
+git config --global user.email "novoslov@reg.ru"
+
+cat ~/.gitconfig
+[user]
+	name = Константин Новослов
+	email = novoslov@reg.ru
+
+3.
+
+localhost:trainee_github novoslov$ git clone git@github.com:constantinenoise/first.git
+Cloning into 'first'...
+Warning: Permanently added the RSA host key for IP address '192.30.253.113' to the list of known hosts.
+warning: You appear to have cloned an empty repository.
+Checking connectivity... done
+
+4.
+
+touch task1.1
+
+echo "Создай в каталоге с репозиторием файл task1.1, скопируй в него текст этого задания. Посмотри статус репозитория. Сделай так, чтобы это файл никогда не попал в репозиторий и не обрабатывался никакими командами git. Просмотри ещё раз статус репозитория." > task1.1 
+
+localhost:first novoslov$ git status
+# On branch master
+#
+# Initial commit
+#
+# Untracked files:
+#   (use "git add <file>..." to include in what will be committed)
+#
+#	task1.1
+nothing added to commit but untracked files present (use "git add" to track)
+
+touch .gitignore
+
+echo task1.1 > .gitignore
+
+git add .gitignore
+
+git commit
+
+$ git status
+# On branch master
+nothing to commit, working directory clean
+
+touch task1.1_answer
+
+echo "текст содержащай все выполняемые команды и их вывод по каждому пункту задания" > task1.1_answer
+
+git add task1.1_answer
+
+git commit
+
+git push origin master
