@@ -69,3 +69,75 @@ test1
 test2
 
 $ git rm fileB
+<<<<<<< HEAD
+=======
+
+
+9.
+
+$ git log
+commit bb81402f0c8bc2b80e9989e37149ae6a9b547452
+Author: Константин Новослов <novoslov@reg.ru>
+Date:   Thu Aug 3 17:04:24 2017 +0400
+
+    8 задание
+
+commit 3c04c0f717a11ba75ea3124afd96f53c6d967202
+Author: Константин Новослов <novoslov@reg.ru>
+Date:   Thu Aug 3 16:53:14 2017 +0400
+
+    Delete test
+
+commit 5a67bfcb297814f20faa04ae906f90749bd18cf8
+Author: Константин Новослов <novoslov@reg.ru>
+Date:   Wed Aug 2 23:13:28 2017 +0400
+
+    test
+
+commit 259583f79768e00064da4f07873373c9190a7ba7
+Author: Константин Новослов <novoslov@reg.ru>
+Date:   Wed Aug 2 23:11:13 2017 +0400
+
+    Add task1.1_answer
+
+commit 06255da80944d026326513d69c1af917bcbf9857
+Author: Константин Новослов <novoslov@reg.ru>
+Date:   Wed Aug 2 23:07:51 2017 +0400
+
+    Add .gitignore
+
+
+
+
+$ git log
+commit 5165b063a55d05b3e4cb256326ca8b5d935fd816
+Author: Константин Новослов <novoslov@reg.ru>
+Date:   Thu Aug 3 17:17:37 2017 +0400
+
+    Фиксируем правки task1.1_answer
+
+commit 3c04c0f717a11ba75ea3124afd96f53c6d967202
+Author: Константин Новослов <novoslov@reg.ru>
+Date:   Thu Aug 3 16:53:14 2017 +0400
+
+    Delete test
+
+commit 5a67bfcb297814f20faa04ae906f90749bd18cf8
+Author: Константин Новослов <novoslov@reg.ru>
+Date:   Wed Aug 2 23:13:28 2017 +0400
+
+    test
+
+commit 259583f79768e00064da4f07873373c9190a7ba7
+Author: Константин Новослов <novoslov@reg.ru>
+Date:   Wed Aug 2 23:11:13 2017 +0400
+
+    Add task1.1_answer
+
+commit 06255da80944d026326513d69c1af917bcbf9857
+Author: Константин Новослов <novoslov@reg.ru>
+Date:   Wed Aug 2 23:07:51 2017 +0400
+
+    Add .gitignore
+
+>>>>>>> 36b947a40f674c128e3cccc465669fe353269591
