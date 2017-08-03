@@ -69,6 +69,7 @@ test1
 test2
 
 $ git rm fileB
+<<<<<<< HEAD
 
 
 9.
@@ -138,3 +139,5 @@ Date:   Wed Aug 2 23:07:51 2017 +0400
 
     Add .gitignore
 
+=======
+>>>>>>> bb81402f0c8bc2b80e9989e37149ae6a9b547452
