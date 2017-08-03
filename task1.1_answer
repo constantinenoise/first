@@ -155,3 +155,9 @@ Date:   Wed Aug 2 23:07:51 2017 +0400
 =======
 >>>>>>> 36b947a40f674c128e3cccc465669fe353269591
 >>>>>>> b948c2b9f1b34c119595d9dafcee01261013081d
+
+12.
+
+git branch feature1
+
+echo test3 >> fileB
